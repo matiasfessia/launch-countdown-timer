@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <div>
   <div
-    class="app"
+    class="css-bkdez6-App"
   />
 </div>
 `;
