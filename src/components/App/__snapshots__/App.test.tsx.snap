@@ -3,22 +3,71 @@
 exports[`renders correctly 1`] = `
 <div>
   <div
-    class="css-1nau8v1-App"
+    class="css-1nr9ttg-App"
   >
     <div
-      class="css-xa2uow-FlipCard"
-      data-value="60"
+      class="css-meph1r-App"
     >
       <div
-        class="css-6zxvij-FlipCard"
-        data-value="60"
-      />
+        class="css-xa2uow-FlipCard"
+        data-value="01"
+      >
+        <div
+          class="css-6zxvij-FlipCard"
+          data-value="01"
+        />
+        <div
+          class="css-bqwd0q-FlipCard"
+        />
+        <div
+          class="css-1ubqmn9-FlipCard"
+        />
+      </div>
       <div
-        class="css-bqwd0q-FlipCard"
-      />
+        class="css-xa2uow-FlipCard"
+        data-value="06"
+      >
+        <div
+          class="css-6zxvij-FlipCard"
+          data-value="06"
+        />
+        <div
+          class="css-bqwd0q-FlipCard"
+        />
+        <div
+          class="css-1ubqmn9-FlipCard"
+        />
+      </div>
       <div
-        class="css-1ubqmn9-FlipCard"
-      />
+        class="css-xa2uow-FlipCard"
+        data-value="20"
+      >
+        <div
+          class="css-6zxvij-FlipCard"
+          data-value="20"
+        />
+        <div
+          class="css-bqwd0q-FlipCard"
+        />
+        <div
+          class="css-1ubqmn9-FlipCard"
+        />
+      </div>
+      <div
+        class="css-xa2uow-FlipCard"
+        data-value="51"
+      >
+        <div
+          class="css-6zxvij-FlipCard"
+          data-value="51"
+        />
+        <div
+          class="css-bqwd0q-FlipCard"
+        />
+        <div
+          class="css-1ubqmn9-FlipCard"
+        />
+      </div>
     </div>
   </div>
 </div>

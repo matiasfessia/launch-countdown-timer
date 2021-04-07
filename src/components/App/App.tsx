@@ -1,21 +1,27 @@
 /** @jsxImportSource @emotion/react */
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { FlipCard } from '../FlipCard';
 import { styles } from './styles';
 
 export const App = () => {
-  const [number, setNumber] = useState<number>(60);
+  const launchDate = new Date('Apr 8, 2021 21:30:30').getTime();
+  const [timeleft, setTimeLeft] = useState<number>(launchDate - new Date().getTime());
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setNumber(number === 1 ? 60 : number - 1);
+      setTimeLeft(launchDate - new Date().getTime());
     }, 1000);
     return () => clearInterval(interval);
-  }, [number]);
+  }, [launchDate]);
 
   return (
     <div css={styles.container}>
-      <FlipCard value={String(number).padStart(2, '0')} />
+      <div css={styles.cardsContainer}>
+        <FlipCard value={String(Math.floor(timeleft / (1000 * 60 * 60 * 24))).padStart(2, '0')} />
+        <FlipCard value={String(Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0')} />
+        <FlipCard value={String(Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0')} />
+        <FlipCard value={String(Math.floor((timeleft % (1000 * 60)) / 1000)).padStart(2, '0')} />
+      </div>
     </div>
   );
 };
