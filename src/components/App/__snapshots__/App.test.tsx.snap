@@ -3,7 +3,23 @@
 exports[`renders correctly 1`] = `
 <div>
   <div
-    class="css-bkdez6-App"
-  />
+    class="css-1nau8v1-App"
+  >
+    <div
+      class="css-xa2uow-FlipCard"
+      data-value="60"
+    >
+      <div
+        class="css-6zxvij-FlipCard"
+        data-value="60"
+      />
+      <div
+        class="css-bqwd0q-FlipCard"
+      />
+      <div
+        class="css-1ubqmn9-FlipCard"
+      />
+    </div>
+  </div>
 </div>
 `;

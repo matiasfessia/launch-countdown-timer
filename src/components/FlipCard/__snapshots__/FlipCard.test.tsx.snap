@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    class="css-xa2uow-FlipCard"
+    data-value="33"
+  >
+    <div
+      class="css-6zxvij-FlipCard"
+      data-value="33"
+    />
+    <div
+      class="css-bqwd0q-FlipCard"
+    />
+    <div
+      class="css-1ubqmn9-FlipCard"
+    />
+  </div>
+</div>
+`;
