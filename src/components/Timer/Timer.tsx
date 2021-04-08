@@ -19,10 +19,10 @@ export const Timer = () => {
   // @todo create helpers to parse the timedate to seconds, minutes, hours and days.
   return (
     <div css={styles.cardsContainer}>
-      <FlipCard value={String(Math.floor(timeleft / (1000 * 60 * 60 * 24))).padStart(2, '0')} />
-      <FlipCard value={String(Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0')} />
-      <FlipCard value={String(Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0')} />
-      <FlipCard value={String(Math.floor((timeleft % (1000 * 60)) / 1000)).padStart(2, '0')} />
+      <FlipCard title="days" value={String(Math.floor(timeleft / (1000 * 60 * 60 * 24))).padStart(2, '0')} />
+      <FlipCard title="hours" value={String(Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0')} />
+      <FlipCard title="minutes" value={String(Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0')} />
+      <FlipCard title="seconds" value={String(Math.floor((timeleft % (1000 * 60)) / 1000)).padStart(2, '0')} />
     </div>
   );
 };

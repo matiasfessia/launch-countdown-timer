@@ -10,6 +10,10 @@ const innerFontColor = '#d35072';
 const innerBackgroundColor = '#2c2c44';
 
 export const styles = {
+  container: css`
+    display: flex;
+    flex-direction: column;
+  `,
   outerCard: css`
     position: relative;
     width: 70px;
@@ -71,5 +75,15 @@ export const styles = {
     right: 0px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
+  `,
+  title: css`
+    margin: 15px 0;
+    color: #8888a4;
+    font-weight: normal;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'RedHatText-Regular', sans-serif;
   `
 };
