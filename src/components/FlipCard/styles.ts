@@ -15,6 +15,7 @@ export const styles = {
     width: 70px;
     height: 70px;
     margin: 0 10px;
+    font-family: 'RedHatText-Regular', sans-serif;
     &:before {
       position: absolute;
       z-index: 0;

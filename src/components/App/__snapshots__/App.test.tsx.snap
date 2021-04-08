@@ -3,10 +3,10 @@
 exports[`renders correctly 1`] = `
 <div>
   <div
-    class="css-evbolb-App"
+    class="css-g2gst9-App"
   >
     <h1
-      class="css-1ng4ffx-App"
+      class="css-1eu2r4m-App"
     >
       WE´RE LAUNCHING SOON
     </h1>
@@ -14,7 +14,7 @@ exports[`renders correctly 1`] = `
       class="css-1xpqvqu-Timer"
     >
       <div
-        class="css-gjiz4v-FlipCard"
+        class="css-y5ro21-FlipCard"
         data-value="00"
       >
         <div
@@ -29,7 +29,7 @@ exports[`renders correctly 1`] = `
         />
       </div>
       <div
-        class="css-gjiz4v-FlipCard"
+        class="css-y5ro21-FlipCard"
         data-value="21"
       >
         <div
@@ -44,12 +44,12 @@ exports[`renders correctly 1`] = `
         />
       </div>
       <div
-        class="css-gjiz4v-FlipCard"
-        data-value="23"
+        class="css-y5ro21-FlipCard"
+        data-value="11"
       >
         <div
           class="css-nq5f8h-FlipCard"
-          data-value="23"
+          data-value="11"
         />
         <div
           class="css-xp1t8d-FlipCard"
@@ -59,12 +59,12 @@ exports[`renders correctly 1`] = `
         />
       </div>
       <div
-        class="css-gjiz4v-FlipCard"
-        data-value="06"
+        class="css-y5ro21-FlipCard"
+        data-value="25"
       >
         <div
           class="css-nq5f8h-FlipCard"
-          data-value="06"
+          data-value="25"
         />
         <div
           class="css-xp1t8d-FlipCard"

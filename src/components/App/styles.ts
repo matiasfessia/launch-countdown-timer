@@ -1,4 +1,5 @@
 import { css } from '@emotion/react';
+import bgStars from '../../assets/images/bg-stars.svg';
 import patternHills from '../../assets/images/pattern-hills.svg';
 
 export const styles = {
@@ -9,12 +10,11 @@ export const styles = {
     align-items: center;
     justify-content: center;
     background-color: #231d2b;
-    background-image: url(${patternHills});
-    background-position: bottom right;
+    background-image: url(${bgStars}), url(${patternHills});
+    background-position: top, bottom right;
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
-    font-family: 'RedHatText-Regular', sans-serif;
   `,
   title: css`
     text-align: center;
@@ -26,6 +26,7 @@ export const styles = {
     font-weight: 300;
     letter-spacing: 5px;
     line-height: 30px;
+    font-family: 'RedHatText-Regular', sans-serif;
   `,
 
   footer: css`
