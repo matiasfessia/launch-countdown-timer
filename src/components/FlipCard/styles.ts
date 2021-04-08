@@ -8,6 +8,7 @@ const outerFontColor = '#d35072';
 const outerBackgroundColor = '#35354f';
 const innerFontColor = '#d35072';
 const innerBackgroundColor = '#2c2c44';
+const desktopBreakpoint = '1024px';
 
 export const styles = {
   container: css`
@@ -20,6 +21,10 @@ export const styles = {
     height: 70px;
     margin: 0 10px;
     font-family: 'RedHatText-Regular', sans-serif;
+    @media (min-width: ${desktopBreakpoint}) {
+      width: 140px;
+      height: 140px;
+    }
     &:before {
       position: absolute;
       z-index: 0;
@@ -36,6 +41,10 @@ export const styles = {
       font-weight: ${fontWeight};
       line-height: 4px;
       text-align: center;
+      @media (min-width: ${desktopBreakpoint}) {
+        font-size: 80px;
+        line-height: 15px;
+      }
     }
   `,
   innerCard: css`
@@ -55,6 +64,10 @@ export const styles = {
       font-weight: ${fontWeight};
       text-align: center;
       line-height: 70px;
+      @media (min-width: ${desktopBreakpoint}) {
+        font-size: 80px;
+        line-height: 150px;
+      }
     }
   `,
   bite: css`
@@ -62,7 +75,7 @@ export const styles = {
     z-index: 3;
     width: 3px;
     height: 5px;
-    top: 33px;
+    top: calc(50% - 2px);
     border-radius: 50%;
     background-color: ${background};
   `,
@@ -85,5 +98,8 @@ export const styles = {
     letter-spacing: 2px;
     text-transform: uppercase;
     font-family: 'RedHatText-Regular', sans-serif;
+    @media (min-width: ${desktopBreakpoint}) {
+      font-size: 14px;
+    }
   `
 };
