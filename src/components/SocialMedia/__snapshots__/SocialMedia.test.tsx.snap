@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    class="css-20wlgm-SocialMedia"
+  >
+    <a
+      class="css-1eiqcch-SocialMedia"
+      href="https://www.facebook.com/"
+    >
+      <img
+        alt="facebook icon"
+        class="css-1idlvul-SocialMedia"
+        src="icon-facebook.svg"
+      />
+    </a>
+    <a
+      class="css-1eiqcch-SocialMedia"
+      href="https://www.pinterest.com/"
+    >
+      <img
+        alt="pinterest icon"
+        class="css-1idlvul-SocialMedia"
+        src="icon-pinterest.svg"
+      />
+    </a>
+    <a
+      class="css-1eiqcch-SocialMedia"
+      href="http://instagram.com/"
+    >
+      <img
+        alt="instagram icon"
+        class="css-1idlvul-SocialMedia"
+        src="icon-instagram.svg"
+      />
+    </a>
+  </div>
+</div>
+`;

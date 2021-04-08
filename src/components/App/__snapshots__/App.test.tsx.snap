@@ -14,72 +14,139 @@ exports[`renders correctly 1`] = `
       class="css-1xpqvqu-Timer"
     >
       <div
-        class="css-y5ro21-FlipCard"
-        data-value="00"
+        class="css-1822xkh-FlipCard"
       >
         <div
-          class="css-nq5f8h-FlipCard"
-          data-value="00"
-        />
-        <div
-          class="css-xp1t8d-FlipCard"
-        />
-        <div
-          class="css-18hlcob-FlipCard"
-        />
+          class="css-y5ro21-FlipCard"
+          data-value="09"
+        >
+          <div
+            class="css-nq5f8h-FlipCard"
+            data-value="09"
+          />
+          <div
+            class="css-xp1t8d-FlipCard"
+          />
+          <div
+            class="css-18hlcob-FlipCard"
+          />
+        </div>
+        <h2
+          class="css-xzkfzk-FlipCard"
+        >
+          days
+        </h2>
       </div>
       <div
-        class="css-y5ro21-FlipCard"
-        data-value="21"
+        class="css-1822xkh-FlipCard"
       >
         <div
-          class="css-nq5f8h-FlipCard"
-          data-value="21"
-        />
-        <div
-          class="css-xp1t8d-FlipCard"
-        />
-        <div
-          class="css-18hlcob-FlipCard"
-        />
+          class="css-y5ro21-FlipCard"
+          data-value="12"
+        >
+          <div
+            class="css-nq5f8h-FlipCard"
+            data-value="12"
+          />
+          <div
+            class="css-xp1t8d-FlipCard"
+          />
+          <div
+            class="css-18hlcob-FlipCard"
+          />
+        </div>
+        <h2
+          class="css-xzkfzk-FlipCard"
+        >
+          hours
+        </h2>
       </div>
       <div
-        class="css-y5ro21-FlipCard"
-        data-value="11"
+        class="css-1822xkh-FlipCard"
       >
         <div
-          class="css-nq5f8h-FlipCard"
-          data-value="11"
-        />
-        <div
-          class="css-xp1t8d-FlipCard"
-        />
-        <div
-          class="css-18hlcob-FlipCard"
-        />
+          class="css-y5ro21-FlipCard"
+          data-value="41"
+        >
+          <div
+            class="css-nq5f8h-FlipCard"
+            data-value="41"
+          />
+          <div
+            class="css-xp1t8d-FlipCard"
+          />
+          <div
+            class="css-18hlcob-FlipCard"
+          />
+        </div>
+        <h2
+          class="css-xzkfzk-FlipCard"
+        >
+          minutes
+        </h2>
       </div>
       <div
-        class="css-y5ro21-FlipCard"
-        data-value="25"
+        class="css-1822xkh-FlipCard"
       >
         <div
-          class="css-nq5f8h-FlipCard"
-          data-value="25"
-        />
-        <div
-          class="css-xp1t8d-FlipCard"
-        />
-        <div
-          class="css-18hlcob-FlipCard"
-        />
+          class="css-y5ro21-FlipCard"
+          data-value="56"
+        >
+          <div
+            class="css-nq5f8h-FlipCard"
+            data-value="56"
+          />
+          <div
+            class="css-xp1t8d-FlipCard"
+          />
+          <div
+            class="css-18hlcob-FlipCard"
+          />
+        </div>
+        <h2
+          class="css-xzkfzk-FlipCard"
+        >
+          seconds
+        </h2>
       </div>
     </div>
     <div
-      class="css-17iyi4e-App"
+      class="css-7exyml-App"
     >
-      <h1>
-        footer
-      </h1>
+      <div
+        class="css-20wlgm-SocialMedia"
+      >
+        <a
+          class="css-1eiqcch-SocialMedia"
+          href="https://www.facebook.com/"
+        >
+          <img
+            alt="facebook icon"
+            class="css-1idlvul-SocialMedia"
+            src="icon-facebook.svg"
+          />
+        </a>
+        <a
+          class="css-1eiqcch-SocialMedia"
+          href="https://www.pinterest.com/"
+        >
+          <img
+            alt="pinterest icon"
+            class="css-1idlvul-SocialMedia"
+            src="icon-pinterest.svg"
+          />
+        </a>
+        <a
+          class="css-1eiqcch-SocialMedia"
+          href="http://instagram.com/"
+        >
+          <img
+            alt="instagram icon"
+            class="css-1idlvul-SocialMedia"
+            src="icon-instagram.svg"
+          />
+        </a>
+      </div>
     </div>
   </div>
 </div>

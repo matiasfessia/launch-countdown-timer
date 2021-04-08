@@ -5,7 +5,7 @@ import { styles } from './styles';
 import { FlipCard } from '../FlipCard';
 
 export const Timer = () => {
-  const launchDate = new Date('Apr 8, 2021 21:30:30').getTime();
+  const launchDate = new Date('Apr 17, 2021 21:30:30').getTime(); // @todo add this value into an env var, which could be also inside a docker container for portability.
   const [timeleft, setTimeLeft] = useState<number>(launchDate - new Date().getTime());
 
   // @todo maybe is a good idea to create a custom hook for the following interval (dan's post about it).

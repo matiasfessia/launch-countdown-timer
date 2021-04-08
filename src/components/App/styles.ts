@@ -32,6 +32,7 @@ export const styles = {
   footer: css`
     display: flex;
     flex: 1;
+    padding-bottom: 80px;
     align-items: flex-end;
     justify-content: center;
     width: 100%;

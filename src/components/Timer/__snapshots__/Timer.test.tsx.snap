@@ -6,64 +6,100 @@ exports[`renders correctly 1`] = `
     class="css-1xpqvqu-Timer"
   >
     <div
-      class="css-y5ro21-FlipCard"
-      data-value="00"
+      class="css-1822xkh-FlipCard"
     >
       <div
-        class="css-nq5f8h-FlipCard"
-        data-value="00"
-      />
-      <div
-        class="css-xp1t8d-FlipCard"
-      />
-      <div
-        class="css-18hlcob-FlipCard"
-      />
+        class="css-y5ro21-FlipCard"
+        data-value="09"
+      >
+        <div
+          class="css-nq5f8h-FlipCard"
+          data-value="09"
+        />
+        <div
+          class="css-xp1t8d-FlipCard"
+        />
+        <div
+          class="css-18hlcob-FlipCard"
+        />
+      </div>
+      <h2
+        class="css-xzkfzk-FlipCard"
+      >
+        days
+      </h2>
     </div>
     <div
-      class="css-y5ro21-FlipCard"
-      data-value="21"
+      class="css-1822xkh-FlipCard"
     >
       <div
-        class="css-nq5f8h-FlipCard"
-        data-value="21"
-      />
-      <div
-        class="css-xp1t8d-FlipCard"
-      />
-      <div
-        class="css-18hlcob-FlipCard"
-      />
+        class="css-y5ro21-FlipCard"
+        data-value="12"
+      >
+        <div
+          class="css-nq5f8h-FlipCard"
+          data-value="12"
+        />
+        <div
+          class="css-xp1t8d-FlipCard"
+        />
+        <div
+          class="css-18hlcob-FlipCard"
+        />
+      </div>
+      <h2
+        class="css-xzkfzk-FlipCard"
+      >
+        hours
+      </h2>
     </div>
     <div
-      class="css-y5ro21-FlipCard"
-      data-value="11"
+      class="css-1822xkh-FlipCard"
     >
       <div
-        class="css-nq5f8h-FlipCard"
-        data-value="11"
-      />
-      <div
-        class="css-xp1t8d-FlipCard"
-      />
-      <div
-        class="css-18hlcob-FlipCard"
-      />
+        class="css-y5ro21-FlipCard"
+        data-value="41"
+      >
+        <div
+          class="css-nq5f8h-FlipCard"
+          data-value="41"
+        />
+        <div
+          class="css-xp1t8d-FlipCard"
+        />
+        <div
+          class="css-18hlcob-FlipCard"
+        />
+      </div>
+      <h2
+        class="css-xzkfzk-FlipCard"
+      >
+        minutes
+      </h2>
     </div>
     <div
-      class="css-y5ro21-FlipCard"
-      data-value="25"
+      class="css-1822xkh-FlipCard"
     >
       <div
-        class="css-nq5f8h-FlipCard"
-        data-value="25"
-      />
-      <div
-        class="css-xp1t8d-FlipCard"
-      />
-      <div
-        class="css-18hlcob-FlipCard"
-      />
+        class="css-y5ro21-FlipCard"
+        data-value="56"
+      >
+        <div
+          class="css-nq5f8h-FlipCard"
+          data-value="56"
+        />
+        <div
+          class="css-xp1t8d-FlipCard"
+        />
+        <div
+          class="css-18hlcob-FlipCard"
+        />
+      </div>
+      <h2
+        class="css-xzkfzk-FlipCard"
+      >
+        seconds
+      </h2>
     </div>
   </div>
 </div>
