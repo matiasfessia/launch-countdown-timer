@@ -14,6 +14,7 @@ export const styles = {
     position: relative;
     width: 70px;
     height: 70px;
+    margin: 0 10px;
     &:before {
       position: absolute;
       z-index: 0;
@@ -28,7 +29,7 @@ export const styles = {
       color: ${outerFontColor};
       font-size: ${fontSize}px;
       font-weight: ${fontWeight};
-      line-height: 0px;
+      line-height: 4px;
       text-align: center;
     }
   `,
@@ -48,7 +49,7 @@ export const styles = {
       font-size: ${fontSize}px;
       font-weight: ${fontWeight};
       text-align: center;
-      line-height: 66px;
+      line-height: 70px;
     }
   `,
   bite: css`
@@ -61,13 +62,12 @@ export const styles = {
     background-color: ${background};
   `,
   leftBite: css`
-    left: -1px;
-
+    left: 0px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
   `,
   rightBite: css`
-    right: -1px;
+    right: 0px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
   `

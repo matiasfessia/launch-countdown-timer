@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    class="css-1xpqvqu-Timer"
+  >
+    <div
+      class="css-gjiz4v-FlipCard"
+      data-value="00"
+    >
+      <div
+        class="css-nq5f8h-FlipCard"
+        data-value="00"
+      />
+      <div
+        class="css-xp1t8d-FlipCard"
+      />
+      <div
+        class="css-18hlcob-FlipCard"
+      />
+    </div>
+    <div
+      class="css-gjiz4v-FlipCard"
+      data-value="21"
+    >
+      <div
+        class="css-nq5f8h-FlipCard"
+        data-value="21"
+      />
+      <div
+        class="css-xp1t8d-FlipCard"
+      />
+      <div
+        class="css-18hlcob-FlipCard"
+      />
+    </div>
+    <div
+      class="css-gjiz4v-FlipCard"
+      data-value="23"
+    >
+      <div
+        class="css-nq5f8h-FlipCard"
+        data-value="23"
+      />
+      <div
+        class="css-xp1t8d-FlipCard"
+      />
+      <div
+        class="css-18hlcob-FlipCard"
+      />
+    </div>
+    <div
+      class="css-gjiz4v-FlipCard"
+      data-value="06"
+    >
+      <div
+        class="css-nq5f8h-FlipCard"
+        data-value="06"
+      />
+      <div
+        class="css-xp1t8d-FlipCard"
+      />
+      <div
+        class="css-18hlcob-FlipCard"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -3,71 +3,83 @@
 exports[`renders correctly 1`] = `
 <div>
   <div
-    class="css-1nr9ttg-App"
+    class="css-evbolb-App"
   >
+    <h1
+      class="css-1ng4ffx-App"
+    >
+      WE´RE LAUNCHING SOON
+    </h1>
     <div
-      class="css-meph1r-App"
+      class="css-1xpqvqu-Timer"
     >
       <div
-        class="css-xa2uow-FlipCard"
-        data-value="01"
+        class="css-gjiz4v-FlipCard"
+        data-value="00"
       >
         <div
-          class="css-6zxvij-FlipCard"
-          data-value="01"
+          class="css-nq5f8h-FlipCard"
+          data-value="00"
         />
         <div
-          class="css-bqwd0q-FlipCard"
+          class="css-xp1t8d-FlipCard"
         />
         <div
-          class="css-1ubqmn9-FlipCard"
+          class="css-18hlcob-FlipCard"
         />
       </div>
       <div
-        class="css-xa2uow-FlipCard"
+        class="css-gjiz4v-FlipCard"
+        data-value="21"
+      >
+        <div
+          class="css-nq5f8h-FlipCard"
+          data-value="21"
+        />
+        <div
+          class="css-xp1t8d-FlipCard"
+        />
+        <div
+          class="css-18hlcob-FlipCard"
+        />
+      </div>
+      <div
+        class="css-gjiz4v-FlipCard"
+        data-value="23"
+      >
+        <div
+          class="css-nq5f8h-FlipCard"
+          data-value="23"
+        />
+        <div
+          class="css-xp1t8d-FlipCard"
+        />
+        <div
+          class="css-18hlcob-FlipCard"
+        />
+      </div>
+      <div
+        class="css-gjiz4v-FlipCard"
         data-value="06"
       >
         <div
-          class="css-6zxvij-FlipCard"
+          class="css-nq5f8h-FlipCard"
           data-value="06"
         />
         <div
-          class="css-bqwd0q-FlipCard"
+          class="css-xp1t8d-FlipCard"
         />
         <div
-          class="css-1ubqmn9-FlipCard"
+          class="css-18hlcob-FlipCard"
         />
       </div>
-      <div
-        class="css-xa2uow-FlipCard"
-        data-value="20"
-      >
-        <div
-          class="css-6zxvij-FlipCard"
-          data-value="20"
-        />
-        <div
-          class="css-bqwd0q-FlipCard"
-        />
-        <div
-          class="css-1ubqmn9-FlipCard"
-        />
-      </div>
-      <div
-        class="css-xa2uow-FlipCard"
-        data-value="51"
-      >
-        <div
-          class="css-6zxvij-FlipCard"
-          data-value="51"
-        />
-        <div
-          class="css-bqwd0q-FlipCard"
-        />
-        <div
-          class="css-1ubqmn9-FlipCard"
-        />
-      </div>
+    </div>
+    <div
+      class="css-17iyi4e-App"
+    >
+      <h1>
+        footer
+      </h1>
     </div>
   </div>
 </div>
