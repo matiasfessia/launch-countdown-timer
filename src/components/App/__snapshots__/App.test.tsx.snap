@@ -3,10 +3,10 @@
 exports[`renders correctly 1`] = `
 <div>
   <div
-    class="css-g2gst9-App"
+    class="css-twicn6-App"
   >
     <h1
-      class="css-1eu2r4m-App"
+      class="css-1ng4ffx-App"
     >
       WE´RE LAUNCHING SOON
     </h1>
@@ -17,22 +17,22 @@ exports[`renders correctly 1`] = `
         class="css-1822xkh-FlipCard"
       >
         <div
-          class="css-y5ro21-FlipCard"
-          data-value="09"
+          class="css-h18gz8-FlipCard"
+          data-value="11"
         >
           <div
-            class="css-nq5f8h-FlipCard"
-            data-value="09"
+            class="css-11um8xe-FlipCard"
+            data-value="11"
           />
           <div
-            class="css-xp1t8d-FlipCard"
+            class="css-1n6j318-FlipCard"
           />
           <div
-            class="css-18hlcob-FlipCard"
+            class="css-11p975c-FlipCard"
           />
         </div>
         <h2
-          class="css-xzkfzk-FlipCard"
+          class="css-pu2xco-FlipCard"
         >
           days
         </h2>
@@ -41,22 +41,22 @@ exports[`renders correctly 1`] = `
         class="css-1822xkh-FlipCard"
       >
         <div
-          class="css-y5ro21-FlipCard"
-          data-value="12"
+          class="css-h18gz8-FlipCard"
+          data-value="01"
         >
           <div
-            class="css-nq5f8h-FlipCard"
-            data-value="12"
+            class="css-11um8xe-FlipCard"
+            data-value="01"
           />
           <div
-            class="css-xp1t8d-FlipCard"
+            class="css-1n6j318-FlipCard"
           />
           <div
-            class="css-18hlcob-FlipCard"
+            class="css-11p975c-FlipCard"
           />
         </div>
         <h2
-          class="css-xzkfzk-FlipCard"
+          class="css-pu2xco-FlipCard"
         >
           hours
         </h2>
@@ -65,22 +65,22 @@ exports[`renders correctly 1`] = `
         class="css-1822xkh-FlipCard"
       >
         <div
-          class="css-y5ro21-FlipCard"
-          data-value="41"
+          class="css-h18gz8-FlipCard"
+          data-value="53"
         >
           <div
-            class="css-nq5f8h-FlipCard"
-            data-value="41"
+            class="css-11um8xe-FlipCard"
+            data-value="53"
           />
           <div
-            class="css-xp1t8d-FlipCard"
+            class="css-1n6j318-FlipCard"
           />
           <div
-            class="css-18hlcob-FlipCard"
+            class="css-11p975c-FlipCard"
           />
         </div>
         <h2
-          class="css-xzkfzk-FlipCard"
+          class="css-pu2xco-FlipCard"
         >
           minutes
         </h2>
@@ -89,29 +89,29 @@ exports[`renders correctly 1`] = `
         class="css-1822xkh-FlipCard"
       >
         <div
-          class="css-y5ro21-FlipCard"
-          data-value="56"
+          class="css-h18gz8-FlipCard"
+          data-value="52"
         >
           <div
-            class="css-nq5f8h-FlipCard"
-            data-value="56"
+            class="css-11um8xe-FlipCard"
+            data-value="52"
           />
           <div
-            class="css-xp1t8d-FlipCard"
+            class="css-1n6j318-FlipCard"
           />
           <div
-            class="css-18hlcob-FlipCard"
+            class="css-11p975c-FlipCard"
           />
         </div>
         <h2
-          class="css-xzkfzk-FlipCard"
+          class="css-pu2xco-FlipCard"
         >
           seconds
         </h2>
       </div>
     </div>
     <div
-      class="css-7exyml-App"
+      class="css-173x8tt-App"
     >
       <div
         class="css-20wlgm-SocialMedia"

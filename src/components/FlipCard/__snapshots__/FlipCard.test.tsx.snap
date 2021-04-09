@@ -6,22 +6,22 @@ exports[`renders correctly 1`] = `
     class="css-1822xkh-FlipCard"
   >
     <div
-      class="css-y5ro21-FlipCard"
+      class="css-h18gz8-FlipCard"
       data-value="33"
     >
       <div
-        class="css-nq5f8h-FlipCard"
+        class="css-11um8xe-FlipCard"
         data-value="33"
       />
       <div
-        class="css-xp1t8d-FlipCard"
+        class="css-1n6j318-FlipCard"
       />
       <div
-        class="css-18hlcob-FlipCard"
+        class="css-11p975c-FlipCard"
       />
     </div>
     <h2
-      class="css-xzkfzk-FlipCard"
+      class="css-pu2xco-FlipCard"
     />
   </div>
 </div>
