@@ -1,10 +1,7 @@
 import { css } from '@emotion/react';
 import bgStars from '../../assets/images/bg-stars.svg';
 import patternHills from '../../assets/images/pattern-hills.svg';
-
-// @todo move all these const to global const styling file
-const desktopBreakpoint = '1024px';
-const background = '#231d2b';
+import { COLOR, DESKTOP_BREAKPOINT } from '../../constants';
 
 export const styles = {
   container: css`
@@ -13,13 +10,13 @@ export const styles = {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: ${background};
+    background-color: ${COLOR.PRIMARY};
     background-image: url(${patternHills}), url(${bgStars});
     background-position: bottom right, top;
     background-repeat: no-repeat;
     margin: 0;
     height: 100vh;
-    @media (min-width: ${desktopBreakpoint}) {
+    @media (min-width: ${DESKTOP_BREAKPOINT}) {
       background-size: contain;
     }
   `,
@@ -33,7 +30,6 @@ export const styles = {
     font-weight: 300;
     letter-spacing: 5px;
     line-height: 30px;
-    font-family: 'RedHatText-Regular', sans-serif;
   `,
   footer: css`
     display: flex;

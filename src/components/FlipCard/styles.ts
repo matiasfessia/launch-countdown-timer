@@ -1,14 +1,10 @@
 import { css } from '@emotion/react';
+import { COLOR, DESKTOP_BREAKPOINT } from '../../constants';
 
-// @todo move all these const to global const styling file
-const background = '#231d2b';
 const fontSize = 40;
 const fontWeight = 700;
-const outerFontColor = '#d35072';
 const outerBackgroundColor = '#35354f';
-const innerFontColor = '#d35072';
 const innerBackgroundColor = '#2c2c44';
-const desktopBreakpoint = '1024px';
 
 export const styles = {
   container: css`
@@ -20,8 +16,7 @@ export const styles = {
     width: 70px;
     height: 70px;
     margin: 0 10px;
-    font-family: 'RedHatText-Regular', sans-serif;
-    @media (min-width: ${desktopBreakpoint}) {
+    @media (min-width: ${DESKTOP_BREAKPOINT}) {
       width: 140px;
       height: 140px;
     }
@@ -36,13 +31,13 @@ export const styles = {
       border-radius: 0 0 5px 5px;
       bottom: 2px;
       content: attr(data-value);
-      color: ${outerFontColor};
+      color: ${COLOR.SECUNDARY};
       font-size: ${fontSize}px;
       font-weight: ${fontWeight};
       line-height: 4px;
       text-align: center;
-      @media (min-width: ${desktopBreakpoint}) {
-        font-size: 80px;
+      @media (min-width: ${DESKTOP_BREAKPOINT}) {
+        font-size: ${fontSize * 2}px;
         line-height: 15px;
       }
     }
@@ -59,13 +54,13 @@ export const styles = {
       border-bottom: 1px solid rgb(0 0 0 / 30%);
       background-clip: padding-box;
       content: attr(data-value);
-      color: ${innerFontColor};
+      color: ${COLOR.SECUNDARY};
       font-size: ${fontSize}px;
       font-weight: ${fontWeight};
       text-align: center;
       line-height: 70px;
-      @media (min-width: ${desktopBreakpoint}) {
-        font-size: 80px;
+      @media (min-width: ${DESKTOP_BREAKPOINT}) {
+        font-size: ${fontSize * 2}px;
         line-height: 150px;
       }
     }
@@ -77,7 +72,7 @@ export const styles = {
     height: 5px;
     top: calc(50% - 2px);
     border-radius: 50%;
-    background-color: ${background};
+    background-color: ${COLOR.PRIMARY};
   `,
   leftBite: css`
     left: 0px;
@@ -97,8 +92,7 @@ export const styles = {
     font-size: 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-family: 'RedHatText-Regular', sans-serif;
-    @media (min-width: ${desktopBreakpoint}) {
+    @media (min-width: ${DESKTOP_BREAKPOINT}) {
       font-size: 14px;
     }
   `

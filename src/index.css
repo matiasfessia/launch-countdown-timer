@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'RedHatTextRegular';
+  src: url('assets/fonts/RedHatText-Regular.ttf');
+}
+
 body {
   margin: 0;
+  font-family: 'RedHatText-Regular', sans-serif;
 }
