@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`App should renders correctly 1`] = `
 <div>
   <div
     class="css-twicn6-App"
@@ -18,11 +18,11 @@ exports[`renders correctly 1`] = `
       >
         <div
           class="css-h18gz8-FlipCard"
-          data-value="11"
+          data-value="29"
         >
           <div
             class="css-11um8xe-FlipCard"
-            data-value="11"
+            data-value="29"
           />
           <div
             class="css-1n6j318-FlipCard"
@@ -42,11 +42,11 @@ exports[`renders correctly 1`] = `
       >
         <div
           class="css-h18gz8-FlipCard"
-          data-value="01"
+          data-value="22"
         >
           <div
             class="css-11um8xe-FlipCard"
-            data-value="01"
+            data-value="22"
           />
           <div
             class="css-1n6j318-FlipCard"
@@ -66,11 +66,11 @@ exports[`renders correctly 1`] = `
       >
         <div
           class="css-h18gz8-FlipCard"
-          data-value="53"
+          data-value="12"
         >
           <div
             class="css-11um8xe-FlipCard"
-            data-value="53"
+            data-value="12"
           />
           <div
             class="css-1n6j318-FlipCard"
@@ -90,11 +90,11 @@ exports[`renders correctly 1`] = `
       >
         <div
           class="css-h18gz8-FlipCard"
-          data-value="52"
+          data-value="10"
         >
           <div
             class="css-11um8xe-FlipCard"
-            data-value="52"
+            data-value="10"
           />
           <div
             class="css-1n6j318-FlipCard"
