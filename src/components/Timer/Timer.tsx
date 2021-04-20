@@ -6,7 +6,7 @@ import { styles } from './styles';
 import { FlipCard } from '../FlipCard';
 
 export const Timer = () => {
-  const launchDate = moment('2021-04-20T21:33:15'); // @todo add this value into an env var, which could be also inside a docker container for portability.
+  const launchDate = moment((process.env.REACT_APP_LAUNCH_DATE as string) || '2021-04-25T21:33:15');
   const [timeleft, setTimeLeft] = useState(moment.duration(launchDate.diff(moment())));
 
   // @todo maybe is a good idea to create a custom hook for the following interval (dan's post about it).
