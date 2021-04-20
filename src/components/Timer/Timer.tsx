@@ -15,7 +15,7 @@ export const Timer = ({ onTimeIsUp }: Props) => {
 
   // @todo maybe is a good idea to create a custom hook for the following interval (dan's post about it).
   useEffect(() => {
-    if (timeleft.seconds() <= 0) {
+    if (![timeleft.days(), timeleft.hours(), timeleft.minutes(), timeleft.seconds()].filter(x => x > 0).length) {
       onTimeIsUp();
       return;
     }

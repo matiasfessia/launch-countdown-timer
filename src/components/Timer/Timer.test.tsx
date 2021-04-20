@@ -7,7 +7,7 @@ describe('Timer', () => {
   });
 
   it('should renders correctly', () => {
-    const { container } = render(<Timer />);
+    const { container } = render(<Timer onTimeIsUp={jest.fn()} />);
     expect(container).toMatchSnapshot();
   });
 });
