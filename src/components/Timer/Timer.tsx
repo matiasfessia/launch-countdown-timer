@@ -5,17 +5,30 @@ import moment from 'moment';
 import { styles } from './styles';
 import { FlipCard } from '../FlipCard';
 
-export const Timer = () => {
+export interface Props {
+  onTimeIsUp: () => void;
+}
+export const Timer = ({ onTimeIsUp }: Props) => {
   const launchDate = moment((process.env.REACT_APP_LAUNCH_DATE as string) || '2021-04-25T21:33:15');
-  const [timeleft, setTimeLeft] = useState(moment.duration(launchDate.diff(moment())));
+  const launchDateDiff = launchDate.diff(moment());
+  const [timeleft, setTimeLeft] = useState(moment.duration(launchDateDiff <= 0 ? 0 : launchDateDiff));
 
   // @todo maybe is a good idea to create a custom hook for the following interval (dan's post about it).
   useEffect(() => {
+    if (timeleft.seconds() <= 0) {
+      onTimeIsUp();
+      return;
+    }
     const interval = setInterval(() => {
-      setTimeLeft(moment.duration(launchDate.diff(moment())));
+      const launchDateDiff = launchDate.diff(moment());
+      if (launchDateDiff <= 0) {
+        setTimeLeft(moment.duration(0));
+        return;
+      }
+      setTimeLeft(moment.duration(launchDateDiff));
     }, 1000);
     return () => clearInterval(interval);
-  }, [launchDate]);
+  }, [timeleft, onTimeIsUp, launchDate]);
 
   return (
     <div css={styles.cardsContainer}>
